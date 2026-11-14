@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="T7lp2F" name="SynthesizerHackathon" projectType="guiapp"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="OPWyYc" name="SynthesizerHackathon">
+    <GROUP id="{63E7CCDF-4453-0FF0-6601-16BB7C4635B0}" name="Source">
+      <FILE id="p3u4uk" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="JMLAoV" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="jeZA91" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES/>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2026 targetFolder="Builds/VisualStudio2026">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="SynthesizerHackathon"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="SynthesizerHackathon"/>
+      </CONFIGURATIONS>
+    </VS2026>
+  </EXPORTFORMATS>
+</JUCERPROJECT>

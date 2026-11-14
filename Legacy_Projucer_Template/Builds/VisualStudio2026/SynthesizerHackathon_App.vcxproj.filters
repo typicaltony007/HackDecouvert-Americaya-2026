@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SynthesizerHackathon\Source">
+      <UniqueIdentifier>{A405E515-6A27-4619-0832-0E9FCDF0F47D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SynthesizerHackathon">
+      <UniqueIdentifier>{9FD840E4-4D46-B585-2906-B2609819F779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JUCE Library Code">
+      <UniqueIdentifier>{7ED5A90E-41AF-A1EF-659B-37CEEAB9BA61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Main.cpp">
+      <Filter>SynthesizerHackathon\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MainComponent.cpp">
+      <Filter>SynthesizerHackathon\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\MainComponent.h">
+      <Filter>SynthesizerHackathon\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JuceLibraryCode\JuceHeader.h">
+      <Filter>JUCE Library Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include=".\resources.rc">
+      <Filter>JUCE Library Code</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
