@@ -1,4 +1,3 @@
-## HackDecouvert-Americaya-2026
 #Syntheasy - Music Made Easy
 
 ## Inspiration
