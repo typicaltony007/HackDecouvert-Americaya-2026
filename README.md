@@ -1,4 +1,4 @@
-#Syntheasy - Music Made Easy
+###Syntheasy - Music Made Easy
 
 ## Inspiration
 All four of us at Americaya are interested in artistic hobbies in our free time. We've noticed many people are trying to get into music and they tend to quit early. It is likely (in our opinion) due to the fact that the music they want to make is at a higher level than what they are capable of. Syntheasy provides a playground for newbies to be motivated by their results.
