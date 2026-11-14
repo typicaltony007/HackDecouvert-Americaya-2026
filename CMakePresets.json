@@ -1,0 +1,29 @@
+{
+    "version": 6,
+    "cmakeMinimumRequired": { "major": 3, "minor": 25, "patch": 0 },
+    "configurePresets": [
+        {
+            "name": "vs2026",
+            "displayName": "Visual Studio 2026 (x64)",
+            "description": "Generates a Visual Studio 2026 solution (requires CMake 4.2+, bundled with VS 2026)",
+            "generator": "Visual Studio 18 2026",
+            "architecture": { "value": "x64", "strategy": "set" },
+            "binaryDir": "${sourceDir}/build/vs2026",
+            "condition": { "type": "equals", "lhs": "${hostSystemName}", "rhs": "Windows" }
+        },
+        {
+            "name": "vs2022",
+            "displayName": "Visual Studio 2022 (x64) - fallback",
+            "generator": "Visual Studio 17 2022",
+            "architecture": { "value": "x64", "strategy": "set" },
+            "binaryDir": "${sourceDir}/build/vs2022",
+            "condition": { "type": "equals", "lhs": "${hostSystemName}", "rhs": "Windows" }
+        }
+    ],
+    "buildPresets": [
+        { "name": "vs2026-debug",   "configurePreset": "vs2026", "configuration": "Debug" },
+        { "name": "vs2026-release", "configurePreset": "vs2026", "configuration": "Release" },
+        { "name": "vs2022-debug",   "configurePreset": "vs2022", "configuration": "Debug" },
+        { "name": "vs2022-release", "configurePreset": "vs2022", "configuration": "Release" }
+    ]
+}
