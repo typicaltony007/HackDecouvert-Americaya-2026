@@ -12,17 +12,19 @@ Users can add effects in the Effects tab to further alter the sound. Here, users
 
 ## How we built it
 
+We formulated ideas onto Claude and let it build for us. It is coded in C++.
 
 ## Challenges we ran into
-- Establishing a concrete ideas.
-- Getting set up and started.
-- Figuring out appropriate use of AI in our code.
-- Converting languages using code language converting tools.
-- Setting up the API key.
+- Establishing a concrete ideas
+- Following through with the idea
+- Getting set up and started
+- Figuring out appropriate use of AI in our code
+- Converting languages using code language converting tools
+- Setting up the API key
 - Communicating the base idea in the beginning and delegating roles to each member
 - Managing memory and disk space
 - Getting AI to work to what we need
-- Finishing the food 
+- Finishing the food
 
 ## Accomplishments that we're proud of
 - Integrating code with UI
