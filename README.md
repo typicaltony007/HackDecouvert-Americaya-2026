@@ -1,18 +1,14 @@
-# Syntheasy - Music Made Easy
-
 ## Inspiration
-All four of us at Americaya are interested in artistic hobbies in our free time. We've noticed many people are trying to get into music and they tend to quit early. It is likely (in our opinion) due to the fact that the music they want to make is at a higher level than what they are capable of. Syntheasy provides a playground for newbies to be motivated by their results.
+All four of us at Americaya are interested in artistic hobbies in our free time. We've noticed many plug-ins that are too generic and bland-sounding. SynthMath is a unique tool that allows users to express music in a mathematical way to then use it in their work.
 
 ## What it does
-Syntheasy is an beginner-friendly synthetic instrument designed to help specifically newcomers to write music they imagine. 
+SynthMath is a simple plug-in and a standalone instrument that allows mathematical expressions to be turned into sound using a new interpretation.
 
-It establishes a node work-flow where there are audio-in and audio-out and it works from upstream to downstream.
+It's a plug-in with a familiar interface, with a special option for expressing your waveform as mathematical functions plotted on a looping graph.
 
-It creates a sine wave by default connected to the audio-out and from there, users can customize it into different types of waveform e.g. Saw, Square, Triangle and Sine. They can also change what note the sine wave is playing.
+It creates a saw and a square wave by default, and from there, users can customize it into different types of waveforms e.g. the classic: Saw, Square, Triangle and Sine, along with the custom mathematical function wave. It also allows you to manipulate the pitch for each individual oscillator.
 
-Users can add other nodes between the connections to alter the sound. Kind of like a function. From then, users can drag and drop effects on to the blank node to make it sound more unique e.g. reverb, filter, delay, distortion, chorus, bit crusher, compressor, etc.
-
-Users can then also add merger nodes that merges two different audios together. These merger nodes can add, multiply, subtract, divide, exponentiate, and radicalize.
+Users can add effects in the Effects tab to further alter the sound. Here, users select desired basic effects to make it sound more unique e.g. reverb, delay, distortion, bit crusher, equalizer, etc.
 
 ## How we built it
 
@@ -29,7 +25,6 @@ Users can then also add merger nodes that merges two different audios together. 
 - Finishing the food 
 
 ## Accomplishments that we're proud of
-- Using an external for the first time
 - Integrating code with UI
 - Making a potentially very professional software
 
@@ -39,5 +34,5 @@ Users can then also add merger nodes that merges two different audios together. 
 - How to use external libraries
 - How to incorporate CLI AIs into IDEs
 
-## What's next for Syntheasy
-After this, we plan to expand this into a more professional interface that's still welcoming to newcomers to music. In other words, an offshoot of Syntheasy that's more tailored towards professionals.
+## What's next for SynthMath
+After this, we plan to expand this into a more professional interface, while keeping our main mathematical focus. In other words, an offshoot of SynthMath that's more tailored towards professionals.
